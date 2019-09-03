@@ -1,0 +1,106 @@
+*, :before, :after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, header, hgroup, nav, section, article, aside, footer, figure, figcaption, menu, button { margin: 0; padding: 0 }
+body { font-family: Helvetica, STHeiTi, "Microsoft YaHei", sans-serif; line-height: 1.7; font-size: .14rem; color: #333; background-color: #fff; -webkit-user-select: none; -webkit-text-size-adjust: 100%; outline: 0; padding-bottom: .5rem }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400 }
+table { border-collapse: collapse; border-spacing: 0 }
+caption, th { text-align: left }
+fieldset, img { border: 0 }
+li { list-style: none }
+ins { text-decoration: none }
+del { text-decoration: line-through }
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; outline: 0 }
+button { -webkit-appearance: none; border: 0; background: 0 0 }
+a { -webkit-touch-callout: none; text-decoration: none }
+:focus { outline: 0 }
+em, i { font-style: normal }
+input[type=date] { text-align: right }
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button, input[type=submit] { -webkit-appearance: none !important; margin: 0 }
+@media screen and (max-width:319px) {
+	html { font-size: 90px }
+}
+@media screen and (min-width:320px) and (max-width:359px) {
+	html { font-size: 90px }
+}
+@media screen and (min-width:360px) and (max-width:374px) {
+	html { font-size: 96px }
+}
+@media screen and (min-width:375px) and (max-width:383px) {
+	html { font-size: 100px }
+}
+@media screen and (min-width:384px) and (max-width:399px) {
+	html { font-size: 102.4px }
+}
+@media screen and (min-width:400px) and (max-width:413px) {
+	html { font-size: 106.67px }
+}
+@media screen and (min-width:414px) {
+	html { font-size: 110.4px }
+}
+@-webkit-keyframes aroundFlutter {
+	0% { -webkit-transform: translateX(0px) }
+	50% { -webkit-transform: translateX(10px) }
+	100% { -webkit-transform: translateX(0px) }
+}
+@-webkit-keyframes leftEnter {
+	0% { -webkit-transform: translateX(-300%) }
+	100% { -webkit-transform: translateX(0%) }
+}
+@-webkit-keyframes rightEnter {
+	0% { -webkit-transform: translateX(300%) }
+	100% { -webkit-transform: translateX(0%) }
+}
+@-webkit-keyframes upDownFlutter {
+	0% { -webkit-transform: translateY(0px) }
+	50% { -webkit-transform: translateY(10px) }
+	100% { -webkit-transform: translateY(0px) }
+}
+@-webkit-keyframes leftOut {
+	0% { -webkit-transform: translateX(0%) }
+	100% { -webkit-transform: translateX(-300%) }
+}
+@-webkit-keyframes upOut {
+	0% { -webkit-transform: translateY(0%) }
+	100% { -webkit-transform: translateY(-300%) }
+}
+@-webkit-keyframes rightOut {
+	0% { -webkit-transform: translateX(0%) }
+	100% { -webkit-transform: translateX(300%) }
+}
+@-webkit-keyframes opacity {
+	0% { opacity: 0 }
+	100% { opacity: 1 }
+}
+@-webkit-keyframes opacity-out {
+	0% { opacity: 1 }
+	100% { opacity: 0 }
+}
+@-webkit-keyframes bottomEnter {
+	0% { -webkit-transform: translateY(300%) }
+	100% { -webkit-transform: translateY(0%) }
+}
+@-webkit-keyframes topEnter {
+	0% { -webkit-transform: translateY(-300%) }
+	100% { -webkit-transform: translateY(0%) }
+}
+@-webkit-keyframes bounceInDown {
+	0% { -webkit-transform: translateY(-1800px) }
+	60% { -webkit-transform: translateY(20px) }
+	80% { -webkit-transform: translateY(-10px) }
+	100% { -webkit-transform: translateY(0px) }
+}
+@-webkit-keyframes rotation {
+	0% { -webkit-transform: rotate(0deg) }
+	100% { -webkit-transform: rotate(360deg) }
+}
+a { color: #333 }
+em { font-style: normal }
+::-webkit-input-placeholder { color: #aeaeae }
+h1 { font-size: .18rem }
+h2 { font-size: .17rem }
+h3, h4 { font-size: .16rem }
+h5 { font-size: .14rem }
+h6 { font-size: .12rem }
+.none { display: none }
+.viewport { max-width: 750px; min-width: 320px; width: 100%; margin: 0 auto }
+h3.title { line-height: .34rem; padding: .15rem 0; text-align: center; font-size: .18rem }
+h3.title.after { height: .015rem; width: .25rem; content: ''; background-color: #732d78; display: block; margin: auto }

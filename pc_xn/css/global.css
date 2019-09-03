@@ -1,0 +1,86 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, th, td { margin: 0; padding: 0 }
+body { font-size: 14px; line-height: 24px; background: #fff; color: #393939; font-family: 'Helvetica Neue', Helvetica, 'Microsoft YaHei', Tahoma, sans-serif }
+a { text-decoration: none; color: #393939 }
+a:hover { text-decoration: underline }
+em, i { font-style: normal }
+ul, li { list-style: none }
+.none { display: none }
+.clearfix:after { content: ''; display: table; clear: both }
+.clearfix { *zoom: 1 }
+.container { width: 1000px; margin: 0 auto }
+.header { height: 96px; padding-top: 24px; background-color: #f2f2f2; overflow: hidden }
+.header .logo { float: left; display: block }
+.header .brands { width: 358px; margin-left: 5px; float: left }
+.header .brands p { width: 178px; float: left; color: #000003; padding-top: 8px }
+.header .brands p i { color: #920c01; margin-right: 5px }
+.header .header-phone { width: 245px; float: right }
+.header .header-phone span { display: block; font-size: 12px }
+.header .header-phone span img { margin-left: 5px; vertical-align: -14px }
+.nav { height: 50px; background-color: #6f2322 }
+.nav .nav-box { width: 960px; overflow-x: hidden; margin: auto }
+.nav .nav-box ul { margin-left: -2px }
+.nav .nav-box ul li { float: left; height: 100px; line-height: 50px; width: 104px; padding-left: 2px; text-align: center; background: url(../img/nav-line.jpg) no-repeat 0 16px }
+.nav .nav-box ul li a { color: #fff; font-size: 16px; display: inline-block }
+.banner { height: 480px; background: url(../img/banner-bg.jpg) no-repeat center; font-size: 0 }
+.banner img { display: block }
+.column { padding-top: 22px }
+.column ul { margin-left: -10px }
+.column ul li { min-width: 200px; padding: 0 16px; height: 114px; float: left; margin-left: 11px; text-align: center; background-image: url(../img/column-bg.png); background-repeat: no-repeat; background-size: 100% 100% }
+.column ul li h3 { width: 176px; height: 38px; font-size: 16px; text-align: center; line-height: 38px; margin: -9px auto 16px; font-weight: 400; color: #fff; background: url(../img/column-h3.png) no-repeat }
+.column ul li h3 a { color: #fff }
+.search { margin-top: 10px; height: 38px; background: url(../img/search-bg.jpg) no-repeat }
+.search p { line-height: 38px; width: 539px; font-size: 12px; padding-left: 15px; float: left }
+.search p a { margin-right: 8px }
+.search .search-box { width: 388px; padding-top: 4px; float: right; font-size: 0 }
+.search .search-box .search-txt { width: 153px; padding-left: 10px; height: 27px; border: 0; background: url(../img/search-form.jpg) no-repeat }
+.search .search-box .search-btn { width: 99px; padding-left: 18px; height: 27px; border: 0; color: #bd0f01; background: url(../img/search-form.jpg) no-repeat -163px 0 }
+.search .search-box .swt-btn { width: 93px; height: 29px; line-height: 29px; text-align: center; margin-left: 14px; font-size: 12px; vertical-align: 2px; color: #fff; display: inline-block; background: url(../img/swt-btn01.jpg) no-repeat }
+.search .search-box .swt-btn:hover { text-decoration: none }
+.footer { margin-top: 15px; padding-top: 6px; background: url(../img/foot-top-line.jpg) repeat-x top }
+.footer .foot-main { height: 312px; background: url(../img/footer-bg.jpg); font-family: Tahoma }
+.footer .foot-main .foot-title { padding: 14px 0; text-align: center }
+.footer .foot-main .foot-nav { height: 50px; background: url(../img/foot-nav.png) no-repeat center; line-height: 50px; text-align: center; color: #fff }
+.footer .foot-main .foot-nav a { color: #fff; margin: 0 12px }
+.footer .foot-main .foot-logo { width: 390px; margin: 35px 0 0 10px; float: left }
+.footer .foot-main .foot-copy { width: 312px; margin: 30px 0 0 10px; line-height: 26px; font-size: 12px; color: #fff; float: left }
+.footer .foot-main .foot-online { width: 266px; float: right }
+.footer .foot-main .foot-online img { display: block; margin-top: 15px }
+.page-main { margin-top: 10px }
+.page-main .page-left { width: 720px; float: left }
+.page-main .page-right { width: 274px; float: right }
+.right-title { height: 50px; line-height: 50px; font-size: 20px; color: #8a0001; text-align: center; background: url(../img/right-title.jpg) no-repeat center }
+.about { padding: 2px; border: solid 1px #d8d8d8 }
+.about .about-box { background-color: #f5f5f5 }
+.about .about-box h3 { padding: 10px 0; height: 40px; overflow: hidden; text-align: center }
+.about .about-box .about-img { text-align: center }
+.about .about-box .about-img img { border: solid 2px #fff }
+.about .about-box ul.about-list { padding: 0 2px }
+.about .about-box ul.about-list li { width: 76px; float: left; margin: 6px }
+.right-exp { margin-top: 10px; padding: 6px 0; border: solid 1px #d8d8d8; position: relative }
+.right-exp .right-exp-bd { margin: 12px auto 0 }
+.right-exp .right-exp-bd li { width: 272px; height: 286px; float: left; text-align: center }
+.right-exp .right-exp-bd .exp-online { padding-top: 10px; font-size: 0 }
+.right-exp .right-exp-bd .exp-online a { width: 118px; height: 35px; line-height: 35px; display: inline-block; margin: 0 9px; text-align: center; font-size: 16px; color: #fff }
+.right-exp .right-exp-bd .exp-online a.exp-btn01 { background-color: #6b2121 }
+.right-exp .right-exp-bd .exp-online a.exp-btn02 { background-color: #ce6b19 }
+.right-exp .next, .right-exp .prev { width: 25px; height: 74px; display: block; position: absolute; top: 162px; z-index: 18 }
+.right-exp .prev { left: 15px; background: url(../img/prev.png) no-repeat }
+.right-exp .next { right: 15px; background: url(../img/next.png) no-repeat }
+.right-qa { border: solid 1px #d8d8d8; padding: 5px 0; margin-top: 10px }
+.right-qa .right-qa-box { padding: 6px 0 0 6px }
+.right-qa .right-qa-box ul li { float: left; margin-right: 1px; text-align: center; font-size: 0 }
+.right-qa .right-qa-box ul li a { display: inline-block; color: #fff; font-size: 14px }
+.right-qa .right-qa-box ul li a.qa01 { width: 144px; background-color: #c17b27; font-size: 16px; line-height: 30px; display: block; margin-bottom: 1px }
+.right-qa .right-qa-box ul li a.qa02 { width: 75px; line-height: 20px; padding: 10px 0; background-color: #893e3d; font-weight: 700; margin-right: 1px }
+.right-qa .right-qa-box ul li a.qa03 { width: 68px; line-height: 20px; padding: 10px 0; background-color: #d1ae08 }
+.right-qa .right-qa-box ul li a.qa04 { width: 66px; display: block; line-height: 42px; background-color: #d05619; font-weight: 700; margin-bottom: 1px }
+.right-qa .right-qa-box ul li a.qa05 { width: 66px; line-height: 18px; padding: 6px 0; background-color: #c17b27 }
+.right-qa .right-qa-box ul li a.qa06 { width: 49px; line-height: 18px; background-color: #893e3d; padding: 9.5px 0 }
+.right-map { margin-top: 10px; border: solid 1px #d8d8d8 }
+.right-map .map-box { width: 260px; height: 193px; margin: 10px auto 6px }
+.art-case { padding: 6px 0; margin-top: 10px; border: solid 1px #d8d8d8; position: relative }
+.art-case .art-case-bd { margin-top: 10px }
+.art-case .art-case-bd ul li { width: 272px; text-align: center; height: 148px; float: left; overflow: hidden }
+.art-case .next, .art-case .prev { width: 25px; height: 52px; display: block; position: absolute; top: 108px; z-index: 18 }
+.art-case .prev { left: 10px; background: url(../img/prev.png) no-repeat center }
+.art-case .next { right: 10px; background: url(../img/next.png) no-repeat center }

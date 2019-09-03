@@ -1,0 +1,455 @@
+﻿<!DOCTYPE html>
+<html>
+	
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="applicable-device" content="mobile">
+    <meta content="" name="keywords">
+    <meta name="description" content="">
+    <base target="_blank">
+	<title>我的首页</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="./js/TouchSlide.1.1.js"></script>
+	 <script type="text/javascript" src="./js/zepto.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+	<div class="viewport">
+		<header>
+			<img src="images/header-img.jpg">
+		</header>
+		<nav>
+			<ul>
+				<li><a href="">医院简介</a></li>
+				<li><a href="">专家团队</a></li>
+				<li><a href="">治疗方案</a></li>
+				<li><a href="">康复案例</a></li>
+			</ul>
+			<ul>
+				<li><a href="">公立援助</a></li>
+				<li><a href="">看病经历</a></li>
+				<li><a href="">在线咨询</a></li>
+				<li><a href="">来院路线</a></li>
+			</ul>
+		</nav>
+		<section class="banner" id="banner">
+			<div class="banner-bd">
+				<ul>
+					<li><a href=""><img src="images/banner.jpg"></a></li>
+				</ul>
+			</div>
+			<div class="search">
+				<input type="text" name="" id="" class="text" placeholder="请输入石女类型或症状">
+				<input type="submit" value="" class="bt">
+			</div>
+		</section>
+	
+		<section class="swt">
+			<a href=""><img src="images/swt-img1.jpg"></a>
+		</section>
+		<section class="mod01">
+			<div class="m1-box bd">
+				<ul class="mod-tab">
+					<li class="active"><a href="" >年龄</a></li>|
+					<li><a href="javascript:void(0)">病情时长</a></li>|
+					<li><a href="javascript:void(0)">石女类型</a></li>|
+					<li><a href="javascript:void(0)">具体症状</a></li>
+				</ul>
+				<div class="tab-box">
+					<img src="images/mod01-h4.jpg">
+					<ul>
+						<li>年龄</li>
+						<li class="active"><a href="">12—18岁</a></li>
+						<li><a href="">18—25岁</a></li>
+						<li><a href="">25岁以上</a></li>
+					</ul>
+				</div>
+				<div class="tab-box none">
+					<img src="images/mod01-h4-1.jpg">
+					<ul>
+						<li>病情时长</li>
+						<li class="active"><a href=""> 1年以下</a></li>
+						<li><a href="">1—6年</a></li>
+						<li><a href="">7—10年</a></li>
+						<li><a href="">10年以上</a></li>
+					</ul>
+				</div>
+				<div class="tab-box none">
+					<img src="images/mod01-h4-2.jpg">
+					<ul>
+						<li >石女类型</li>
+						<li class="active"><a href="">处女膜闭锁</a></li>
+						<li><a href="">阴道闭锁</a></li>
+						<li><a href="">阴道横隔</a></li>
+					</ul>
+					<ul>
+						<li><a href="">先天无阴道</a></li>
+						<li><a href="">先天无子宫</a></li>
+						<li><a href="">幼稚子宫</a></li>
+						<li><a href="">始基子宫</a></li>
+					</ul>
+					<ul>
+						<li><a href="">子宫纵膈</a></li>
+						<li><a href="">双子宫</a></li>
+						<li><a href="">双角子宫</a></li>
+						<li><a href="">单角子宫</a></li>
+					</ul>
+				</div>
+				<div class="tab-box none">
+					<img src="images/mod01-h4-3.jpg">
+					<ul>
+						<li>具体症状</li>
+						<li class="active"><a href="">原发性闭经</a></li>
+						<li><a href="">月经量极少</a></li>
+						<li><a href="">阴道少量流血</a></li>
+					</ul>
+					<ul>
+						<li><a href="">痛经</a></li>
+						<li><a href="">周期性腹痛</a></li>
+						<li><a href="">性交困难</a></li>
+						<li><a href="">性生活不适</a></li>
+					</ul>
+					<ul>
+						<li><a href="">妊娠时胎位异常</a></li>
+						<li><a href="">婚后不生育</a></li>
+						<li><a href="">反复流产</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<script type="text/javascript">
+    	$(".tab-box ul li").hover(function () {
+
+    		$(this).addClass("active").siblings().removeClass("active");
+    	})
+    </script>
+		<section class="mod02">
+			<div class="con1">
+				<h4>别让无子宫无阴道，成为幸福路上的阻力<span>【杭州患者】</span></h4>
+				<dl>
+					<dt><img src="images/mod01-img1.jpg"></dt>
+					<dd>
+						<ul>
+							<li>患者：<i>李艳      18岁</i></li>
+							<li>诊断：<i>无子宫无阴道</i></li>
+						</ul>
+						<p>李艳是杭州本地的姑娘，自青春期后月经迟迟未来，直到2015年3月 20号…<a href="">【详情】</a></p>
+					</dd>
+				</dl>
+			</div>
+			<div class="con1">
+				<h4> 幼稚子宫月经正常，并不难<span>【苏州患者】</span></h4>
+				<dl>
+					<dt><img src="images/mod01-img2.jpg"></dt>
+					<dd>
+						<ul>
+							<li>患者：<i>王青      19岁</i></li>
+							<li>诊断：<i>子宫小</i></li>
+						</ul>
+						<p>月经稀发、痛经，常常难以忍受这伴随着王青的疾病在多家医院都是表示无<a href="">【详情】</a></p>
+					</dd>
+				</dl>
+			</div>
+			<div class="con1">
+				<h4>如今的我也能有完美的性生活了<span>【湖南患者】</span></h4>
+				<dl>
+					<dt><img src="images/mod01-img3.jpg"></dt>
+					<dd>
+						<ul>
+							<li>患者：<i>李萍      30岁</i></li>
+							<li>诊断：<i>阴道闭锁</i></li>
+						</ul>
+						<p>婚前无月经、腹痛，婚后无法性生活，2015年9月李萍就诊于行杭州红房子…<a href="">【详情】</a></p>
+					</dd>
+				</dl>
+			</div>
+			<div class="con1">
+				<h4>33岁，我终于是期盼来了我自己的宝宝<span>【新疆患者】</span></h4>
+				<dl>
+					<dt><img src="images/mod01-img4.jpg"></dt>
+					<dd>
+						<ul>
+							<li>患者：<i>郭蓉       33岁</i></li>
+							<li>诊断：<i>幼稚子宫</i></li>
+						</ul>
+						<p>好不容易费尽周折怀上了自己的宝宝，可是却不明不白的流产2次从遥远的…<a href="">【详情】</a></p>
+					</dd>
+				</dl>
+			</div>
+			<div class="con1">
+				<h4>手术仅仅2个月，月经就恢复了正常<span>【河南患者】</span></h4>
+				<dl>
+					<dt><img src="images/mod01-img5.jpg"></dt>
+					<dd>
+						<ul>
+							<li>患者：<i>刘芳       26岁</i></li>
+							<li>诊断：<i>幼稚子宫</i></li>
+						</ul>
+						<p>结婚多年却是一直没有自己的宝宝，结果到医院一查才发现自己是幼稚子宫…<a href="">【详情】</a></p>
+					</dd>
+				</dl>
+			</div>
+			<div class="con1">
+				<h4>遇见你是我的幸运，谢谢你红房子<span>【江苏患者】</span></h4>
+				<dl>
+					<dt><img src="images/mod01-img6.jpg"></dt>
+					<dd>
+						<ul>
+							<li>患者：<i>张苗       21岁</i></li>
+							<li>诊断：<i>始基子宫</i></li>
+						</ul>
+						<p>当初一直没来月经的张苗，吃过不少的药，可是依旧没效果，和男友性生活…<a href="">【详情】</a></p>
+					</dd>
+				</dl>
+			</div>
+			<div class="con1">
+				<h4>自从有了孩子，过去的辛酸又算得了什么呢<span>【洛阳患者】</span></h4>
+				<dl>
+					<dt><img src="images/mod01-img7.jpg"></dt>
+					<dd>
+						<ul>
+							<li>患者：<i>蒋芸       25岁</i></li>
+							<li>诊断：<i>子宫纵膈</i></li>
+						</ul>
+						<p>怀不上、怀不上、还是还不上孕，这可是急坏了蒋芸，面对着家里的压力与…<a href="">【详情】</a></p>
+					</dd>
+				</dl>
+			</div>
+			<div class="con1">
+				<h4>谢谢费主任，这是我最想要表达的言语<span>【河北患者】</span></h4>
+				<dl>
+					<dt><img src="images/mod01-img8.jpg"></dt>
+					<dd>
+						<ul>
+							<li>患者：<i>王桂兰       28岁</i></li>
+							<li>诊断：<i>处女膜闭锁</i></li>
+						</ul>
+						<p>时常出现腹痛、性生活无法进行，在新婚之夜就出现十分尴尬的局面。这让…<a href="">【详情】</a></p>
+					</dd>
+				</dl>
+			</div>
+			<div class="con1">
+				<h4>石女的她终于寻觅到了自己的幸福<span>【山西患者】</span></h4>
+				<dl>
+					<dt><img src="images/mod01-img9.jpg"></dt>
+					<dd>
+						<ul>
+							<li>患者：<i>张丽       26岁</i></li>
+							<li>诊断：<i>先天性无子宫无阴道</i></li>
+						</ul>
+						<p>如今的美丽新娘，当初的张丽怎么也会想不到自己能有这么幸福的一天，自…<a href="">【详情】</a></p>
+					</dd>
+				</dl>
+			</div>
+			<div class="con1">
+				<h4>自卑，那已经是过去时，我是世上最美的新娘<span>【山东患者】</span></h4>
+				<dl>
+					<dt><img src="images/mod01-img10.jpg"></dt>
+					<dd>
+						<ul>
+							<li>患者：<i>谷永湘       25岁</i></li>
+							<li>诊断：<i>始基子宫伴随无阴道</i></li>
+						</ul>
+						<p>在17岁的时候，到医院检查出来自己是始基子宫这个病之后，谷永湘就是…<a href="">【详情】</a></p>
+					</dd>
+				</dl>
+			</div>
+		</section>
+		<div class="h4"><a href="">点击查看更多康复案例>>></a></div>
+		<h3 class="title"><img src="images/title0.jpg"></h3>
+		<section class="mod03">
+			<dl>
+				<dt>
+					<a href="" class="hot01">无子宫无阴道怎么办 </a>
+					<dl>
+						<dt><a href="" class="hot02">幼稚子宫<br>怎么治疗 </a></dt>
+						<dd>
+							<a href="" class="hot03">石女治疗<br>要多少钱</a>
+						</dd>
+					</dl>
+				</dt>
+				<dd>
+					<dl>
+						<dt><a href="" class="hot04">石女的<br>特征</a></dt>
+						<dd><a href="" class="hot05">女人没有<br>子宫会怎么样</a></dd>
+					</dl>
+				</dd>
+			</dl>
+			<ul>
+				<li><a href="" class="hot06">子宫小是怎么回事</a></li>
+				<li><a href="" class="hot07">子宫畸形怀孕 </a></li>
+				<li><a href="" class="hot08">始基子宫没月经吗 </a></li>
+			</ul>
+		</section>
+		<h3 class="title"><img src="images/title1.jpg"></h3>
+		<section class="exp">
+			<div class="exp-bd">
+				<ul>
+					<li class="active"><a href="">费旭红</a></li>
+					<li><a href="">陈莲芬</a></li>
+					<li><a href="">徐静龙</a></li>
+					<li><a href="">赵万春</a></li>
+				</ul>
+			</div>
+			<div class="hh">
+				<div class="exp-hd">
+					<img src="images/exp-1.jpg">
+					<div class="introduction">
+						<h5><strong>费旭红</strong>中国石女金牌专家</h5>
+						<p><span>临床经验：</span>30年</p>
+						<p><span>专业擅长：</span>微创治疗先天性无阴道、阴道闭锁、子宫发育不良。</p>
+						<h6>好评率：<b>99.6%</b>推荐指数：<b>★★★★★</b></h6>
+						<div class="swt">
+							<a href="">立即咨询</a>
+							<a href="">立即预约</a>
+						</div>
+					</div>
+				</div>
+				<div class="exp-hd none">
+					<img src="images/exp-2.jpg">
+					<div class="introduction">
+						<h5><strong>陈莲芬</strong>红房子特聘专家</h5>
+						<p><span>临床经验：</span>40年</p>
+						<p><span>专业擅长：</span>妇科微创手术、疑难病种的诊疗。</p>
+						<h6>好评率：<b>95%</b>推荐指数：<b>★★★★</b></h6>
+						<div class="swt">
+							<a href="">立即咨询</a>
+							<a href="">立即预约</a>
+						</div>
+					</div>
+				</div>
+				<div class="exp-hd none">
+					<img src="images/exp-3.jpg">
+					<div class="introduction">
+						<h5><strong>徐静龙</strong>红房子特聘专家</h5>
+						<p><span>临床经验：</span>30年</p>
+						<p><span>专业擅长：</span>妇科微创手术、疑难病种的诊疗。</p>
+						<h6>好评率：<b>95%</b>推荐指数：<b>★★★★</b></h6>
+						<div class="swt">
+							<a href="">立即咨询</a>
+							<a href="">立即预约</a>
+						</div>
+					</div>
+				</div>
+				<div class="exp-hd none">
+					<img src="images/exp-4.jpg">
+					<div class="introduction">
+						<h5><strong>赵万春</strong>中华妇产协会会员</h5>
+						<p><span>临床经验：</span>30年</p>
+						<p><span>专业擅长：</span>妇科微创手术治疗。</p>
+						<h6>好评率：<b>95%</b>推荐指数：<b>★★★★</b></h6>
+						<div class="swt">
+							<a href="">立即咨询</a>
+							<a href="">立即预约</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<h3 class="title"><a href=""><img src="images/title2.jpg"></a></h3>
+		<h3 class="title"><img src="images/title3.jpg"></h3>
+		<!--挂号-->
+		<div class="b_pl">
+  <span> (本网站已加密,绝对保障个人隐私) </span> </div>
+<div class="platform"> 
+  <form id="gh_form" name="gh_form" target="_blank" method="post" action="/syslus/guahao.php?act=add">
+    <div>
+      <label>患者姓名：</label>
+      <input type="text" id="name" name="name" value="" onFocus="if(this.value=='如:李萍'){this.value='';}"  onblur="if(this.value==''){this.value='';}">
+    </div>
+    <div>
+      <label>电话/Q Q：</label>
+      <input type="text" id="tel" name="tel" value=""  onFocus="if(this.value=='如：18258267403'){this.value='';}"  onblur="if(this.value==''){this.value='如：18258267403';}">
+    </div>
+    <div>
+      <label>就诊日期：</label>
+      <input type="text" class="datepicker" id="date" name="yydate" onBlur="if(this.value==''){this.value=this.defaultValue;}" onFocus="if(this.value==this.defaultValue){this.value='';};" value="点击选择就诊日期" readonly onClick="return showCalendar('date', 'y-mm-dd');">
+    </div>
+    <div>
+      <label>预约病种：</label>
+      <select name="des">
+        <option value="先天性无阴道">先天性无阴道</option>
+        <option value="生殖器男性化">生殖器男性化</option>
+        <option value="处女膜闭锁">处女膜闭锁</option>
+        <option value="阴道闭锁">阴道闭锁</option>
+        <option value="阴道横隔">阴道横隔</option>
+        <option value="阴道斜隔症">阴道斜隔症</option>
+        <option value="先天性无子宫">先天性无子宫</option>
+        <option value="子宫发育不良">子宫发育不良</option>
+        <option value="幼稚子宫">幼稚子宫</option>
+        <option value="双子宫">双子宫</option>
+        <option value="双角子宫">双角子宫</option>
+        <option value="鞍状子宫">鞍状子宫</option>
+        <option value="纵隔子宫">纵隔子宫</option>
+        <option value="单角子宫">单角子宫</option>
+        <option value="残角子宫">残角子宫</option>
+        <option value="弓形子宫">弓形子宫</option>
+
+      </select>
+    </div>
+    <div>
+      <label>预约专家：</label>
+      <input type="text" id="name" name="name" value="费旭红" onFocus="if(this.value=='费旭红'){this.value='';}"  onblur="if(this.value==''){this.value='费旭红';}">
+    </div>
+    <div>
+      <input type="submit" class="palform" value="加密提交">
+      <a href="javascript:void(0)" onclick="LR_HideInvite();openZoosUrl();return false;">
+      <input type="button" class="palform_1" value="咨询专家">
+      </a> </div>
+  </form>
+</div>
+	<h3 class="title"><a href=""><img src="images/title4.jpg"></a></h3>
+	<footer>
+		<ul>
+			<li><a href="">首页</a></li>
+			<li><a href="">医院介绍</a></li>
+			<li><a href="">特色技术</a></li>
+			<li><a href="">康复案例</a></li>
+		</ul>
+		<div class="btn">
+			<dl>
+				<dt><img src="images/font-img.jpg"></dt>
+				<dd>杭州红房子妇产医院石女诊疗中心 </dd>
+			</dl>
+			<img src="images/font-img2.jpg" class="foot-1">
+			<div class="foot-t">
+				<p>咨询：<i>0571-28179219</i> </p> <p>门诊时间：<span>8:00—21:00</span></p>
+			</div>
+			<p>院址：<span>浙江省杭州市下城区体育场路286号</span> </p>
+		</div>
+	</footer>
+		<script type="text/javascript">
+		//专家切换
+		 $(".exp-bd li").hover(function(){
+                       $(this).addClass("active").siblings().removeClass();
+                       $(".hh>div").eq($('.exp-bd li').index(this)).show().siblings().hide()
+                   }
+           );
+
+		//内容切换
+        TouchSlide({ 
+            slideCell:".mod01",
+            titCell:".m1-box ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+            mainCell:".tab-box ", 
+            effect:"leftLoop", 
+            autoPlay:true,//自动播放
+            autoPage:true //自动分页
+        });
+        </script>
+
+
+
+
+	</div>
+	
+    
+</body>
+</html>

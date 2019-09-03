@@ -1,0 +1,630 @@
+﻿
+// 幻灯 新闻 医院简介
+.info {
+	width: 994px;
+	margin-top: 10px;
+	border: solid 1px #d8d8d8;
+	overflow: hidden;
+
+	.info-content {
+		width: 720px;
+		padding-top: 5px;
+		float: left;
+
+		.light {
+			width: 266px;
+			height: 310px;
+			padding: 0px 5px;
+			float: left;
+			position: relative;
+			.hd {
+				height: 15px;
+				overflow: hidden;
+				position: absolute;
+				right: 5px;
+				bottom: 5px;
+				z-index: 1;
+
+				ul {
+					overflow: hidden;
+					zoom: 1;
+					float: left;
+
+					li {
+						float: left;
+						margin-right: 2px;
+						width: 15px;
+						height: 15px;
+						line-height: 14px;
+						text-align: center;
+						background: #fff;
+						cursor: pointer;
+
+						&.on {
+							background: #6f2322;
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+		.news {
+			float: right;
+			width: 432px;
+			padding: 0px 5px;
+
+			.new-tab {
+				height: 41px;
+				border-bottom: solid 2px #dbdbdb;
+				background-color: #f1f0f0;
+
+				li {
+					width: 144px;
+					height: 43px;
+					float: left;
+					margin-bottom: -2px;
+					line-height: 42px;
+					text-align: center;
+					font-size: 16px;
+
+					&.active {
+						background-image: url(../img/new-nav-active.jpg);
+						background-repeat: no-repeat;
+						background-size: 100% auto;
+
+						a {
+							display: block;
+							color: #fff;
+						}
+					}
+					a:hover {
+						text-decoration: none;
+					}
+				}
+			}
+			.new-box {
+				font-family: Tahoma;
+
+				.new-info {
+					padding: 9px 0px;
+
+					dt {
+						float: left;
+					}
+					dd {
+						width: 252px;
+						float: right;
+						margin-right: 15px;
+
+						h3 {
+							line-height: 30px;
+							font-size: 16px;
+							text-align: center;
+
+							a {
+								color: #9d1111;
+							}
+						}
+						p {
+							text-indent: 2em;
+							font-size: 12px;
+							line-height: 26px;
+
+							a {
+								color: #9d1111;
+							}
+						}
+					}
+				}
+				.new-list {
+					li {
+						line-height: 35px;
+						padding-left: 10px;
+						border-top: dashed 1px #d8d8d8;
+
+						&:before {
+							width: 5px;
+							height: 9px;
+							display: inline-block;
+							content: '';
+							background-image: url(../img/new-icon.jpg);
+							margin-right: 8px;
+							vertical-align: middle;
+						}
+					}
+				}
+			}
+		}
+		.info-hot {
+			padding: 10px 0px 0px 90px;
+			height: 100px;
+			border-top: solid 1px #d8d8d8;
+			background: url(../img/hot-img.jpg) no-repeat 2px 5px;
+
+			ul {
+				li {
+					float: left;
+					margin-right: 1px;
+					text-align: center;
+					font-size: 0px;
+
+					a {
+						display: inline-block;
+						color: #fff;
+
+						&.qa01 {
+							width: 210px;
+							background-color: #c17b27;
+							font-size: 18px;
+							line-height: 32px;
+							display: block;
+							margin-bottom: 1px;
+						}
+						&.qa02 {
+							width: 120px;
+							line-height: 24px;
+							padding: 5px 0px;
+							background-color: #893e3d;
+							font-size: 18px;
+							font-weight: bold;
+							margin-right: 1px;
+						}
+						&.qa03 {
+							width: 89px;
+							line-height: 24px;
+							padding: 5px 0px;
+							background-color: #d1ae08;
+							font-size: 16px;
+							vertical-align: 1px;
+						}
+						&.qa04 {
+							width: 110px;
+							display: block;
+							line-height: 50px;
+							background-color: #d05619;
+							font-size: 16px;
+							font-weight: bold;
+							margin-bottom: 1px;
+						}
+						&.qa05 {
+							width: 110px;
+							line-height: 40px;
+							background-color: #c17b27;
+							font-size: 16px;
+							font-weight: bold;
+							margin-bottom: 1px;
+						}
+						&.qa06 {
+							width: 100px;
+							line-height: 24px;
+							background-color: #893e3d;
+							font-size: 16px;
+							padding: 9.5px 0px;
+						}
+						&.qa07 {
+							width: 202px;
+							display: block;
+							line-height: 40px;
+							background-color: #c17b27;
+							font-size: 18px;
+							font-weight: bold;
+							margin-bottom: 1px;
+						}
+						&.qa08 {
+							width: 202px;
+							line-height: 50px;
+							background-color: #d05619;
+							font-size: 18px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.abstract {
+		width: 270px;
+		border-left: solid 1px #d8d8d8;
+		background-color: #f5f5f5;
+		float: right;
+		margin: 2px 2px 0px 0px;
+
+		h3 {
+			padding: 8px 0px;
+			text-align: center;
+			font-size: 0;
+			line-height: 0;
+		}
+		.abs-img {
+			text-align: center;
+		}
+		.abs-icon {
+			padding-bottom: 8px;
+
+			li {
+				width: 50%;
+				float: left;
+				line-height: 52px;
+				font-size: 18px;
+				color: #7e4241;
+
+				img {
+					margin: 0px 8px 0px 10px;
+					vertical-align: middle;
+				}
+			}
+		}
+		.abs-phone {
+			width: 255px;
+			border-top: solid 1px #d6d6d6;
+			margin: 0 auto;
+			padding-top: 14px;
+			height: 64px;
+		}
+	}
+}
+// 专家
+.expert {
+	margin-top: 10px;
+	border: solid 1px #d8d8d8;
+
+	h3.title {
+		padding: 2px 2px 0px;
+		height: 68px;
+		overflow: hidden;
+	}
+	.exp-main {
+		.hd {
+			width: 950px;
+			height: 108px;
+			margin: 8px auto 0px;
+
+			ul {
+				li {
+					width: 150px;
+					padding: 5px;
+					float: left;
+					margin: 0px 15px;
+					overflow: hidden;
+					background-color: #ededed;
+					cursor: pointer;
+
+					img {
+						float: left;
+					}
+					h4 {
+						float: right;
+						width: 50px;
+						text-align: center;
+						font-weight: normal;
+						padding-top: 6px;
+						color: #000;
+
+						span {
+							width: 25px;
+							display: inline-block;
+							font-size: 20px;
+							line-height: 22px;
+						}
+						em {
+							width: 20px;
+							font-size: 12px;
+							line-height: 14px;
+							font-family: Tahoma;
+							display: inline-block;
+							vertical-align: -10px;
+						}
+					}
+					&.on {
+						background-color: #6f2322;
+
+						h4 {
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+		.exp-bd {
+			width: 980px;
+			margin: 0px auto 10px;
+
+			ul {
+				li {
+					width: 100%;
+					height: 453px;
+					float: left;
+
+					&.exp01 {
+						background: url(../img/exp-bd01.jpg) no-repeat;
+					}
+					&.exp02 {
+						background: url(../img/exp-bd02.jpg) no-repeat;
+					}
+					&.exp03 {
+						background: url(../img/exp-bd03.jpg) no-repeat;
+					}
+					&.exp04 {
+						background: url(../img/exp-bd04.jpg) no-repeat;
+					}
+					&.exp05 {
+						background: url(../img/exp-bd05.jpg) no-repeat;
+					}
+					.exp-cont {
+						width: 524px;
+						margin: 106px 0px 0px 410px;
+
+						.exp-info {
+							background-image: url(../img/exp-info.jpg);
+							background-size: 100% 100%;
+
+							p {
+								padding: 16px;
+								line-height: 24px;
+								font-size: 16px;
+								text-indent: 2em;
+
+								a {
+									color: #ab0200;
+								}
+							}
+						}
+						.exp-comment {
+							margin: 20px 0px 0px 50px;
+
+							p {
+								width: 50%;
+								float: left;
+								display: inline-block;
+								line-height: 30px;
+								font-size: 16px;
+
+								span {
+									color: #cc0000;
+								}
+								img {
+									vertical-align: middle;
+									margin-right: 8px;
+								}
+								&.exp-com-txt {
+									width: 100%;
+								}
+							}
+						}
+						.exp-online {
+							margin-top: 30px;
+							font-size: 0;
+							text-align: center;
+
+							a {
+								width: 139px;
+								height: 42px;
+								margin: 0px 18px;
+								line-height: 42px;
+								font-size: 18px;
+								color: #fff;
+								display: inline-block;
+
+								&.exp-btn01 {
+									background: url(../img/exp-btn01.png);
+								}
+								&.exp-btn02 {
+									background: url(../img/exp-btn02.png);
+								}
+								&:hover {
+									text-decoration: none;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+// 诊疗项目
+.item {
+	margin-top: 10px;
+
+	h3.title {
+		height: 68px;
+		overflow: hidden;
+	}
+	.item-main {
+		margin-left: -14px;
+
+		.item-box {
+			width: 324px;
+			margin: 14px 0px 0px 14px;
+			float: left;
+			overflow: hidden;
+
+			ul.item-tab {
+				background-color: #f1f0f0;
+				margin-left: -1px;
+				
+				li {
+					width: 107px;
+					height: 43px;
+					line-height: 43px;
+					text-align: center;
+					float: left;
+					font-size: 16px;
+					border-left: solid 1px #c0c0c0;
+
+					&.active {
+						width: 109px;
+						height: 45px;
+						background: url(../img/item-tab-active.jpg);
+						background-size: 100% 100%;
+						margin: 0px -1px -2px;
+
+						a {
+							color: #fff;
+							display: block;
+						}
+					}
+					a:hover {
+						text-decoration: none;
+					}
+				}
+			}
+			.item-cont {
+				width: 314px;
+				padding: 4px;
+				border: solid 1px #c0c0c0;
+				border-top-width: 2px;
+				font-family: Tahoma;
+
+				dl.item-info {
+					margin: 5px 0px 10px;
+
+					dt {
+						width: 140px;
+						float: left;
+					}
+					dd {
+						width: 166px;
+						float: right;
+
+						h4 {
+							font-size: 16px;
+							text-align: center;
+							line-height: 30px;
+
+							a {
+								color: #9d1111;
+							}
+						}
+						p {
+							font-size: 12px;
+							text-indent: 2em;
+
+							a {
+								color: #9d1111;
+							}
+						}
+					}
+				}
+				ul.item-list {
+					li {
+						line-height: 35px;
+						padding-left: 8px;
+						border-top: dashed 1px #d8d8d8;
+
+						&:before {
+							width: 5px;
+							height: 9px;
+							display: inline-block;
+							content: '';
+							background-image: url(../img/new-icon.jpg);
+							margin-right: 5px;
+							vertical-align: middle;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+// 案例
+.case {
+	margin-top: 10px;
+
+	h3.title {
+		height: 68px;
+		overflow: hidden;
+	}
+	.case-list {
+		margin-left: -16px;
+
+		ul {
+			li {
+				width: 236px;
+				float: left;
+				margin: 12px 0px 0px 16px;
+				border: solid 1px #c28f8f;
+
+				h3 {
+					height: 35px;
+					line-height: 35px;
+					text-align: center;
+					font-size: 18px;
+					background: url(../img/case-h3.jpg) repeat-x;
+					border-bottom: solid 1px #c28f8f;
+
+					a {
+						color: #6e0000;
+					}
+				}
+				img {
+					display: block;
+					margin: 8px auto 0px;
+				}
+				h4 {
+					line-height: 28px;
+					text-align: center;
+				}
+				p {
+					width: 220px;
+					margin: 0px auto 5px;
+					line-height: 22px;
+					font-size: 12px;
+					text-indent: 2em;
+
+					a {
+						color: #a60000;
+					}
+				}
+			}
+		}
+	}
+}
+// 医院环境
+.facilities {
+	margin-top: 10px;
+
+	.fac-tab {
+		height: 57px;
+
+		ul {
+			margin-left: -4px;
+
+			li {
+				width: 247px;
+				height: 57px;
+				float: left;
+				background-color: #f1f0f0;
+				font-size: 26px;
+				line-height: 57px;
+				text-align: center;
+				margin-left: 4px;
+				cursor: pointer;
+
+				&.active {
+					background: url(../img/facilities-nav-active.jpg) no-repeat;
+					background-size: 100% 100%;
+					color: #fff;
+				}
+			}
+		}
+	}
+	.fac-list {
+		padding: 4px 0px 12px;
+		border: solid 1px #d8d8d8;
+
+		ul {
+			li {
+				width: 240px;
+				height: 170px;
+				overflow: hidden;
+				float: left;
+				margin: 8px 0px 0px 8px;
+
+				img {
+					display: block;
+					width: 240px;
+				}
+			}
+		}
+	}
+}

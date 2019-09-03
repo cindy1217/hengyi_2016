@@ -1,0 +1,188 @@
+@import "global";
+
+section.address{
+	padding: 0.12rem;
+	dl{
+		.flexbox();	
+		dt{
+			.flex(77);
+			img{
+				width: 100%;
+				display: block;
+			}
+		}
+		dd{
+			.flex(615);
+			margin-left: 0.08rem;
+			position: relative;
+			p{
+				font-size: 0.12rem;
+				line-height: 0.21rem;
+				.transform(0, -50%);
+				position: absolute;
+				top: 50%;
+				left: 0;
+				z-index: 10;
+			}
+		}
+		&:nth-child(2){
+			dt{
+				.flex(38);
+				height: 0.2rem;
+				border-right: 1px solid #999;
+			}
+			dd{
+				.flex(665);
+				margin-left: 0;
+				i{
+					display: block;
+					width: 86%;
+					height: 0.1rem;
+					border-bottom: 1px dashed #999;
+				}
+			}
+		}
+		&:nth-child(4){
+			padding-top: 0.08rem;
+			dt{
+				.flex(38);
+			}
+			dd{
+				.flex(665);
+				line-height: 0.25rem;
+				font-size: 0.12rem;
+				span{				
+					color: #e50012;
+				}
+				a{
+					margin-left: 0.12rem;
+					padding: 0 0.06rem;
+					color: #fff;
+					display: inline-block;
+					background-color: #ff5500;
+				}
+			}
+		}
+	}
+}
+
+section.route{
+	padding: 0.08rem 0.12rem 0;
+	font-size: 0.12rem;
+	h3{
+		padding: 0 0.1rem;
+		height: 0.33rem;
+		line-height: 0.33rem;
+		text-align: right;
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: auto 100%;
+		background-color: @color;
+		background-image: url(../img/route-t1.jpg);
+
+		&.t2{
+			background-image: url(../img/route-t2.jpg);
+		}
+		a{
+			color: #fff;
+			font-size: 0.12rem;
+		}
+	}
+	p{
+		line-height: 0.2rem;
+		padding: 0.18rem 0;
+	}
+
+	ul{
+		margin-top: 0.15rem;
+		padding-left: 0.34rem;
+		background-repeat: no-repeat;
+		background-position: left top;
+		background-size: auto 100%;
+		background-image: url(../img/route-bg.jpg);
+
+		li{
+			line-height: 0.2rem;
+			margin-bottom: 0.05rem;
+			padding: 0.04rem 0 0.04rem 0.1rem;
+			position: relative;
+
+			&:before{
+				content: '';
+				display: block;
+				width: 0;
+				height: 0;
+				border-top: 0.06rem solid transparent;
+				border-bottom: 0.06rem solid transparent;
+				position: absolute;
+				left: -0.05rem;
+				top: 50%;
+				margin-top: -0.06rem;
+				z-index: 15;
+
+			}
+			&:nth-child(1){
+				background-color: #efe4f2;
+				&:before{
+					border-right: 0.06rem solid #efe4f2;
+				}
+			}
+			&:nth-child(2){
+				background-color: #eae8d0;
+				&:before{
+					border-right: 0.06rem solid #eae8d0;
+				}
+			}
+			&:nth-child(3){
+				background-color: #dae1f2;
+				&:before{
+					border-right: 0.06rem solid #dae1f2;
+				}
+			}
+			&:nth-child(4){
+				background-color: #e8ded1;
+				&:before{
+					border-right: 0.06rem solid #e8ded1;
+				}
+			}
+			&:nth-child(5){
+				background-color: #edd9dd;
+				&:before{
+					border-right: 0.06rem solid #edd9dd;
+				}
+			}
+		}
+	}
+	.route-btn{
+		padding: 0.1rem;
+		a{
+			width: 1.5rem;
+			height: 0.25rem;
+			line-height: 0.25rem;
+			display: block;
+			margin: 0.05rem auto;
+			text-align: center;
+			color: #fff;
+			font-size: 0.12rem;
+			border-radius: 0.04rem;
+			background-color: #e50012;
+			&:before{
+				width: 0.12rem;
+				height: 0.12rem;
+				display: inline-block;
+				content: '';
+				margin-right: 0.02rem;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: 100% auto;
+				background-image: url(../img/route-btn01.png);
+			}
+			&:last-child{
+				background-color: #e59225;
+				&:before{
+					background-image: url(../img/route-btn02.png);
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,188 @@
+﻿body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, th, td { margin: 0; padding: 0 }
+body { font-size: 14px; line-height: 24px; background: #fff; color: #393939; font-family: 'Helvetica Neue', Helvetica, 'Microsoft YaHei', Tahoma, sans-serif }
+a { text-decoration: none; color: #393939 }
+a:hover { text-decoration: underline }
+em, i { font-style: normal }
+ul, li { list-style: none }
+img { border: 0 }
+.none { display: none }
+.clearfix:after { content: ''; display: table; clear: both }
+.clearfix { *zoom: 1 }
+.container { width: 1000px; margin: 0 auto }
+.container .title { height: 70px; line-height: 70px; font-size: 26px; padding-left: 153px; color: #fff }
+.header { height: 110px }
+.header .logo { float: left; width: 408px; height: 110px; background: url(../img/header-line.jpg) no-repeat right center }
+.header .logo img { margin-top: 24px }
+.header .header-brand { width: 270px; height: 85px; float: left; padding: 25px 0 0 20px; background: url(../img/header-line.jpg) no-repeat right center }
+.header .header-brand p { line-height: 24px }
+.header .header-brand p i { color: #95642a; margin-right: 4px }
+.header .header-phone { width: 275px; height: 110px; float: right }
+.header .header-phone img { margin-top: 40px }
+.nav { height: 50px; background-color: #95642a }
+.nav .container { overflow: hidden }
+.nav ul { margin-left: -2px }
+.nav ul li { width: 125px; height: 50px; line-height: 50px; text-align: center; float: left; background: url(../img/nav-line.jpg) no-repeat left center }
+.nav ul li a { color: #fff; font-size: 16px; display: inline-block }
+.banner { height: 408px; overflow: hidden }
+.banner .banner-bd ul li { height: 408px }
+.banner .banner-bd ul li img { display: block }
+.banner .banner-bd ul li.banner01 { background: url(../img/banner1-bg.jpg) no-repeat center }
+.banner .banner-bd ul li.banner02 { background: url(../img/banner2-bg.jpg) no-repeat center }
+.banner .banner-bd ul li.banner03 { background: url(../img/banner3-bg.jpg) no-repeat center }
+.ad-box { margin-top: 15px }
+.ad-box img { display: block }
+.column { padding-top: 10px }
+.column ul { margin-left: -10px }
+.column ul li { width: 232px; height: 120px; overflow: hidden; padding: 4px; float: left; margin-left: 10px; border: 1px solid #95642a; background: url(../img/column-bg.jpg) no-repeat center }
+.column ul li h3 { width: 220px; line-height: 44px; text-align: center; margin: auto; font-weight: 400; border-bottom: 1px solid #c9a77d }
+.column ul li h3 a { font-size: 20px; color: #95642a }
+.column ul li .col-info { width: 220px; height: 64px; overflow: hidden; margin: 5px auto 0 }
+.column ul li .col-info img { width: 88px; float: left }
+.column ul li .col-info .col-info-class { display: table; float: left }
+.column ul li .col-info .col-info-class p { display: table-cell; padding-left: 12px; height: 60px; line-height: 20px; vertical-align: middle }
+.column ul li .col-info .col-info-class p a, .column ul li .col-info .col-info-class p i { font-size: 14px }
+.column ul li .col-info .col-info-class p i { vertical-align: 1px; margin: 0 3px }
+.footer { margin-top: 20px; height: 260px; background-color: #dcdcdc }
+.footer .foot-nav { height: 50px; background-color: #95642a }
+.footer .foot-nav .container { overflow: hidden }
+.footer .foot-nav ul { margin-left: -2px }
+.footer .foot-nav ul li { width: 125px; height: 50px; line-height: 50px; text-align: center; float: left; background: url(../img/nav-line.jpg) no-repeat left center }
+.footer .foot-nav ul li a { color: #fff; font-size: 16px; display: inline-block }
+.footer .foot-copy { width: 408px; height: 208px; float: left; background: url(../img/footer-line.jpg) no-repeat right center }
+.footer .foot-copy img.foot-logo { margin-top: 30px }
+.footer .foot-copy p { margin-top: 14px }
+.footer .foot-map { width: 402px; height: 172px; float: left; padding: 36px 0 0 14px; background: url(../img/footer-line.jpg) no-repeat right center }
+.footer .foot-map img { float: left; display: block }
+.footer .foot-map p { width: 270px; float: right; padding-top: 8px }
+.footer .foot-code { float: right; width: 140px }
+.footer .foot-code img { width: 96px; margin-top: 34px }
+.footer .foot-code span { display: block }
+.wiki { margin-top: 15px }
+.wiki .title { padding-left: 183px; background: url(../img/wiki-title.jpg) no-repeat left #95642a }
+.wiki .wiki-top { margin-top: 15px }
+.wiki .wiki-top .wiki-class { width: 62px; float: left }
+.wiki .wiki-top .wiki-class img { display: block }
+.wiki .wiki-top .wiki-box { width: 856px; float: left }
+.wiki .wiki-top .wiki-box dl { float: left; margin: 0 0 7px 9px }
+.wiki .wiki-top .wiki-box dl dt { width: 100px; padding: 20px 0; text-align: center; line-height: 32px; height: 64px; color: #fff; font-size: 20px; float: left; background-image: url(../img/wiki-bg01.png); background-repeat: no-repeat; background-size: 100% 100% }
+.wiki .wiki-top .wiki-box dl dt a { display: block; color: #fff }
+.wiki .wiki-top .wiki-box dl dt.wiki-col01 { background-color: #b88808 }
+.wiki .wiki-top .wiki-box dl dt.wiki-col02 { background-color: #a66331 }
+.wiki .wiki-top .wiki-box dl dt.wiki-col03 { background-color: #9e5113 }
+.wiki .wiki-top .wiki-box dl dt.wiki-col04 { background-color: #8c931d }
+.wiki .wiki-top .wiki-box dl dd { float: left }
+.wiki .wiki-top .wiki-box dl dd a { text-align: center; display: block; line-height: 31px; border: 1px #b1b1b1 dashed; margin: 0 0 2px 2px }
+.wiki .wiki-top .wiki-box dl dd a.hot { line-height: 26px; padding: 7px 0; background-color: #f1f1f1; color: #af0c00; font-size: 20px; font-weight: 700 }
+.wiki .wiki-top .wiki-box dl dd a.hot.only { padding: 20px 0 }
+.wiki .wiki-top .wiki-box dl dd.list01 { width: 208px }
+.wiki .wiki-top .wiki-box dl dd.list01 a { float: left; width: 100px }
+.wiki .wiki-top .wiki-box dl dd.list02 { width: 110px }
+.wiki .wiki-top .wiki-box dl dd.list02 a { width: 106px }
+.wiki .wiki-top .wiki-swt { width: 73px; float: right; margin-top: 2px }
+.wiki .wiki-top .wiki-swt img { display: block }
+.wiki .wiki-btm { margin-left: -30px }
+.wiki .wiki-btm dl { float: left; margin-left: 30px }
+.wiki .wiki-btm dl dt { padding: 1px; float: left }
+.wiki .wiki-btm dl dt a { height: 120px; width: 20px; display: block; font-size: 20px; line-height: 21px; padding: 18px 18px 0; color: #fff; background-image: url(../img/wiki-bg02.png); background-size: 100% 100%; background-repeat: no-repeat }
+.wiki .wiki-btm dl dt.col01 { border: 1px solid #8d5c3e }
+.wiki .wiki-btm dl dt.col01 a { background-color: #8d5c3e }
+.wiki .wiki-btm dl dt.col02 { border: 1px solid #a38c53 }
+.wiki .wiki-btm dl dt.col02 a { background-color: #a38c53 }
+.wiki .wiki-btm dl dt.col03 { border: 1px solid #a4680a }
+.wiki .wiki-btm dl dt.col03 a { background-color: #a4680a }
+.wiki .wiki-btm dl dd { float: left }
+.wiki .wiki-btm dl dd a { text-align: center; display: block; line-height: 32px; border: 1px #b1b1b1 dashed; margin: 0 0 2px 2px }
+.wiki .wiki-btm dl dd.list01 { width: 218px }
+.wiki .wiki-btm dl dd.list01 a { float: left; width: 104px }
+.wiki .wiki-btm dl dd.list01 a.end { font-size: 16px; width: 212px; color: #af0c00 }
+.wiki .wiki-btm dl dd.list02 { width: 110px }
+.wiki .wiki-btm dl dd.list02 a { width: 104px }
+.wiki .wiki-btm dl dd.list03 { width: 214px }
+.wiki .wiki-btm dl dd.list03 a { line-height: 26px; padding: 7.5px 0; color: #af0c00; width: 208px; font-size: 19px; background-color: #f1f1f1 }
+.wiki .wiki-btm dl dd.list03 a b { color: #8d5601 }
+.wiki .wiki-btm dl dd.list03 a span { color: #d77b0d; font-size: 16px }
+.item { margin-top: 15px }
+.item .item-tab { height: 68px; background: url(../img/fac-tab.png) no-repeat 42px 20px #ebebeb }
+.item .item-tab ul { width: 680px; float: right }
+.item .item-tab ul li { width: 170px; height: 68px; line-height: 68px; text-align: center; float: left; color: #95642a; font-size: 26px; cursor: pointer }
+.item .item-tab ul li.active { background-color: #95642a; color: #fff }
+.item .item-box { border: 1px solid #e0e0e0; border-radius: 0 0 3px 3px }
+.item .item-box.item01 ul { padding-top: 5px }
+.item .item-box.item01 ul li { width: 240px; height: 170px; overflow: hidden; float: left; margin: 10px 0 0 8px }
+.item .item-box.item01 p { padding: 10px 15px; line-height: 26px }
+.item .item-box.item02 ul { padding-bottom: 8px }
+.item .item-box.item02 ul li { width: 240px; height: 170px; overflow: hidden; float: left; margin: 10px 0 0 8px }
+.item .item-box.item02 dl.item02-info { padding: 15px 15px 0 }
+.item .item-box.item02 dl.item02-info dt { float: left }
+.item .item-box.item02 dl.item02-info dt img { width: 208px; display: block }
+.item .item-box.item02 dl.item02-info dd { float: right; width: 730px; padding: 0 10px; line-height: 26px }
+.item .item-box.item02 dl.item02-info dd span { color: #a00 }
+.item .item-box.item03 { padding: 15px 0 }
+.item .item-box.item03 h4 { line-height: 34px; font-weight: 400 }
+.item .item-box.item03 h4 b { color: #95642a; font-size: 20px }
+.item .item-box.item03 h4 span { margin-left: 5px }
+.item .item-box.item03 h4 i { height: 1px; border-top: 1px dashed #8f8f8f; width: 246px; display: inline-block; vertical-align: 3px }
+.item .item-box.item03 .item03-left { width: 510px; float: left; padding-left: 10px; border-right: 1px solid #909090 }
+.item .item-box.item03 .item03-left h4 { padding-top: 10px }
+.item .item-box.item03 .item03-left p { width: 480px; line-height: 26px }
+.item .item-box.item03 .item03-right { width: 465px; float: right }
+.item .item-box.item03 .item03-right .item03-flow { margin-top: 5px }
+.item .item-box.item03 .item03-right .item03-flow img { display: block; float: left; margin-left: 14px }
+.item .item-box.item03 .item03-right .item03-list li { width: 205px; margin: 12px 16px 0 10px; float: left }
+.item .item-box.item03 .item03-right .item03-list li img { display: block }
+.item .item-box.item04 ul { width: 992px; margin: auto }
+.item .item-box.item04 ul li { width: 212px; padding: 5px; height: 140px; border: 1px solid #e0e0e0; overflow: hidden; float: left; margin: 15px 12px 0 }
+.item .item-box.item04 p { padding: 10px 15px; line-height: 26px }
+.item .item-box.item04 p span { color: #95642a }
+.page-main { margin-top: 15px }
+.page-main .page-left { width: 270px; float: left }
+.page-main .page-left .left-title { height: 50px; padding-left: 12px; line-height: 50px; background: url(../img/left-title.jpg) no-repeat top right #95642a; color: #fff; font-size: 20px }
+.page-main .page-left .left-qa .left-qa-box { margin-top: 8px; font-family: Tahoma }
+.page-main .page-left .left-qa .left-qa-box ul li { font-size: 0; float: left }
+.page-main .page-left .left-qa .left-qa-box ul li.qa-li02 { width: 186px; margin-top: 1px }
+.page-main .page-left .left-qa .left-qa-box ul li.qa-li03 { width: 83px; margin: 1px 0 0 1px }
+.page-main .page-left .left-qa .left-qa-box ul li.qa-li04 { width: 95px; margin: 1px 1px 0 0 }
+.page-main .page-left .left-qa .left-qa-box ul li.qa-li05 { width: 174px; margin-top: 1px }
+.page-main .page-left .left-qa .left-qa-box ul li a { display: inline-block; font-size: 12px; line-height: 36px; height: 36px; text-align: center }
+.page-main .page-left .left-qa .left-qa-box ul li a.qa-01 { width: 150px; background-color: #bbd28e; color: #415c0b; margin-right: 1px }
+.page-main .page-left .left-qa .left-qa-box ul li a.qa-02 { width: 119px; background-color: #fde9d9; color: #b26d3a }
+.page-main .page-left .left-qa .left-qa-box ul li a.qa-03 { width: 186px; background-color: #c0d5ee; color: #2f5f9a }
+.page-main .page-left .left-qa .left-qa-box ul li a.qa-04 { width: 186px; background-color: #ccc0d9; color: #572290; margin-top: 1px }
+.page-main .page-left .left-qa .left-qa-box ul li a.qa-05 { width: 83px; padding: 16px 0; line-height: 20px; height: 41px; background-color: #e5b8b7; color: #7b2827 }
+.page-main .page-left .left-qa .left-qa-box ul li a.qa-06 { width: 95px; padding: 16px 0; line-height: 20px; height: 41px; background-color: #b6dde8; color: #33798d }
+.page-main .page-left .left-qa .left-qa-box ul li a.qa-07 { width: 174px; background-color: #8db3e2; color: #fff }
+.page-main .page-left .left-qa .left-qa-box ul li a.qa-08 { width: 174px; background-color: #d6e3bc; color: #2f3d13; margin-top: 1px }
+.page-main .page-left .left-exp { margin-top: 15px }
+.page-main .page-left .left-exp .left-exp-box { border: 1px solid #ccc }
+.page-main .page-left .left-exp .left-exp-box .left-exp-bd { height: 200px }
+.page-main .page-left .left-exp .left-exp-box .left-exp-bd ul li { width: 268px; height: 200px; float: left }
+.page-main .page-left .left-exp .left-exp-box .left-exp-bd ul li.left-exp01 { background: url(../img/left-exp01.jpg) no-repeat }
+.page-main .page-left .left-exp .left-exp-box .left-exp-bd ul li.left-exp02 { background: url(../img/left-exp02.jpg) no-repeat }
+.page-main .page-left .left-exp .left-exp-box .left-exp-bd ul li.left-exp03 { background: url(../img/left-exp03.jpg) no-repeat }
+.page-main .page-left .left-exp .left-exp-box .left-exp-bd ul li.left-exp04 { background: url(../img/left-exp04.jpg) no-repeat }
+.page-main .page-left .left-exp .left-exp-box .left-exp-bd ul li a { display: block }
+.page-main .page-left .left-exp .left-exp-box .left-exp-bd ul li a:hover { text-decoration: none }
+.page-main .page-left .left-exp .left-exp-box .left-exp-bd ul li .left-exp-info { width: 146px; padding: 8px 0 0 8px; height: 175px; border: 1px solid #fff; border-radius: 4px; background: url(../img/left-exp-info.png); margin: 8px 0 0 106px }
+.page-main .page-left .left-exp .left-exp-box .left-exp-bd ul li .left-exp-info h4 { color: #95642a; font-size: 24px }
+.page-main .page-left .left-exp .left-exp-box .left-exp-bd ul li .left-exp-info p { line-height: 22px }
+.page-main .page-left .left-exp .left-exp-box .left-exp-bd ul li .left-exp-info p span { color: #a00 }
+.page-main .page-left .left-exp .left-exp-box .left-exp-swt { margin: 10px 0; text-align: center; font-size: 0 }
+.page-main .page-left .left-exp .left-exp-box .left-exp-swt a { width: 75px; height: 28px; display: inline-block; border-radius: 3px; line-height: 28px; text-align: center; color: #fff; font-size: 14px; margin: 0 5px }
+.page-main .page-left .left-exp .left-exp-box .left-exp-swt a.les01 { background-color: #a01d1a }
+.page-main .page-left .left-exp .left-exp-box .left-exp-swt a.les02 { background-color: #396599 }
+.page-main .page-left .left-exp .left-exp-box .left-exp-swt a.les03 { background-color: #95642a }
+.page-main .page-left .left-exp .left-exp-box .left-exp-phone { margin-left: 10px }
+.page-main .page-left .left-case { margin-top: 15px }
+.page-main .page-left .left-case .left-case-list { border: 1px solid #ccc; padding: 5px }
+.page-main .page-left .left-case .left-case-list dl { border-bottom: 1px dashed #ccc; padding: 5px 0 }
+.page-main .page-left .left-case .left-case-list dl dt { float: left; width: 82px }
+.page-main .page-left .left-case .left-case-list dl dt img { width: 82px; margin-top: 5px }
+.page-main .page-left .left-case .left-case-list dl dd { float: right; width: 170px }
+.page-main .page-left .left-case .left-case-list dl dd h4 { font-size: 15px; font-weight: 400 }
+.page-main .page-left .left-case .left-case-list dl dd h4 a { color: #95642a }
+.page-main .page-left .left-case .left-case-list dl dd p { line-height: 20px }
+.page-main .page-left .left-case .left-case-list dl dd p a { color: #a00 }
+.page-main .page-right { width: 720px; float: right }
+.page-main .page-right .crumbs { height: 30px; line-height: 30px; font-size: 16px; border-bottom: 1px solid #ccc }
+.page-main .page-right .crumbs:before { width: 13px; height: 13px; display: inline-block; content: ''; background: url(../img/crumbs-icon.jpg) no-repeat }
+.page-main .page-right .crumbs span { color: #95642a }
